@@ -100,8 +100,8 @@ INNER JOIN Cfg0LiteralValueFamily Familia ON Familia.wso_thread = Caracteristica
             Console.WriteLine($"3) Contextos armados: {contextos.Count}");
 
             var api = new ProtheusContextosClient(
-                baseUrlPost: "http://119.8.73.193:8086/rest/TCContextos/Incluir/",
-                baseUrlPut: "http://119.8.73.193:8086/rest/TCContextos/Modificar/",
+                baseUrlPost: "http://119.8.73.193:8076/rest/TCContextos/Incluir/",
+                baseUrlPut: "http://119.8.73.193:8076/rest/TCContextos/Modificar/",
                 user: "USERREST",
                 pass: "restagr"
             );
